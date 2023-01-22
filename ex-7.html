@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+</head>
+<body>
+    
+
+<script>
+    /*
+    7. As maçãs desta estação custam R$0,30 se forem compradas
+    menos do que uma dúzia, e R$0,25 se forem compradas pelo menos
+    doze. Desenvolva um algoritmo que leia o número de maçãs
+    compradas, calcule e escreva o valor total da compra.
+    
+    */
+
+    let macas = 99;
+
+    if (macas < 12) {
+        console.log(`Cada maçã custará R$0,30.`)
+        const menor12 = macas * 0.30
+        console.log(`O valor de ${macas} maçãs será R$${menor12}`)
+
+    }
+    else {
+        console.log('Cada maçã custará R$0,25.')
+        const maior12 = macas * 0.25
+        console.log(`O valor de ${macas} maçãs será R$${maior12}`)
+    }
+
+
+
+</script>
+</body>
+</html>

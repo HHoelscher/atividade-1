@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    
+
+<script>
+    /*
+    2. Desenvolva um algoritmo para ler o número total de eleitores de um
+município, o número de votos brancos, nulos e válidos. Calcular e
+escrever o percentual que cada um representa em relação ao total
+de eleitores.
+    */
+
+    let votosBrancos = 100;
+    let votosNulos = 110;
+    let votosValidos = 750;
+
+    let totalEleitores = votosBrancos + votosNulos + votosValidos
+    console.log(`Votos em branco: ${votosBrancos}, votos nulos ${votosNulos} e votos válidos ${votosValidos}. O total de eleitores é ${totalEleitores}`)
+
+    let percBrancos = (votosBrancos * 100) / totalEleitores
+    let percNulos =  (votosNulos * 100) / totalEleitores
+    let percValidos =  (votosValidos * 100) / totalEleitores
+
+    console.log(`O percentual de votos brancos é de ${percBrancos}%, os votos nulos são ${percNulos}% e os votos válidos ${percValidos}%. `)
+    
+</script>
+</body>
+</html>
+
+150 - 100%
+50 - x
